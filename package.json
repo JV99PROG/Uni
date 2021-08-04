@@ -1,0 +1,26 @@
+{
+  "name": "event-mgmt",
+  "version": "1.0.0",
+  "description": "A nodeJS app to provide REST APIs for an event management interface.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Joshua Viljoen",
+  "license": "MIT",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "cjs": "0.0.11",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.13.5",
+    "parser": "^0.1.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0"
+  }
+}
